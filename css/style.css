@@ -1,8 +1,14 @@
 @charset "utf-8";
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aqua;
-    color: black;
+    background-color: lightslategray;
+}
+
+p {
+    text-align: justify;
+    font-size: 12pt;
+    text-indent: 10px;
+    color: lightslategray;
 }
 
 div#main {
@@ -14,22 +20,25 @@ div#main {
 }
 
 section#head {
-    background-color: blue;
     display: block;
     float: left;
-    border-right: 1px solid black;
     padding: 10px;
     width: 454px;
     height: 450px;
 }
 
 aside#dif {
-    background-color: blueviolet;
     display: block;
     float: right;
     padding: 10px;
     width: 455px;
     height: 450px;
+}
+
+article#services {
+    display: block;
+    padding: 10px;
+    margin-top: 490px;
 }
 
 footer#footer-main {
