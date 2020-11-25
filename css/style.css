@@ -8,7 +8,10 @@ p {
     text-align: justify;
     font-size: 12pt;
     text-indent: 10px;
-    color: lightslategray;
+}
+
+h1 {
+    text-align: center;
 }
 
 div#main {
@@ -24,7 +27,7 @@ section#head {
     float: left;
     padding: 10px;
     width: 454px;
-    height: 450px;
+    height: 370;
 }
 
 aside#dif {
@@ -32,13 +35,24 @@ aside#dif {
     float: right;
     padding: 10px;
     width: 455px;
-    height: 450px;
+    height: 370px;
 }
 
 article#services {
     display: block;
-    padding: 10px;
-    margin-top: 490px;
+    background: url("../img/back-services.jpg")no-repeat;
+    height: 600px;
+    margin-top: 400px;
+    background-size: 950px 600px;
+}
+
+article#services p {
+    font-size: 12pt;
+    text-align: center;
+}
+
+article#services h1 {
+    padding-top: 70px;
 }
 
 footer#footer-main {
