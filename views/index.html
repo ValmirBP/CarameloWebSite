@@ -5,6 +5,7 @@
     <meta charset="uft-8">
     <title>Caramelo Festas</title>
     <link rel="stylesheet" href="../css/style.css">
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v9.0&appId=2357728814334395&autoLogAppEvents=1" nonce="Mb9OhAno"></script>
 </head>
 
 <body>
@@ -29,25 +30,20 @@
                 <p> A Caremelo Festas e Eventos&reg; pode te ajudar com isso.</p>
                 <p>A Caramelo festas é uma empresa jovem que traz ao mercado um novo conceito em animação, oferecendo serviços de qualidade para que você possa festejar com seu pequeno com muita alegria e segurança com nossos profissionais especializados,
                     podemos propocinar muita diversão.</p>
-
                 <p>Atendemos de crianças com as idades entre 3 e 11 anos. </p>
-
                 <p> Recreadores preparados para entreter as crianças durante todo o tempo de festa, brincadeiras lúdicas, pintura facial, gincanas, bola, corda, torta na cara (chantili), oficina de desenho, oficina de Slime e muito mais...</p>
                 </p>
             </article>
         </section>
 
         <aside id="dif">
-
             <h1>Nosso Diferencial</h1>
 
             <p> A Sutileza está na escolha dos detalhes, que fazem da sua festa muito divertida. Trabalhamos com eventos sociais e Corporativos. Temos uma equipe especializada de recreadores que tornarão sua festa muito mais animada. <br>
                 <p> Temos muitas atividades preparadas para gastar a energia do seu pequeno! Você decide horário e tempo de permanência, é só falar.</p>
                 <p> * brincadeiras e temáticas diferentes consulte!</p>
             </p>
-
         </aside>
-
 
         <section id="middle">
             <article id="services">
@@ -62,36 +58,52 @@
             </article>
 
             <article id="contact">
-                <h1>Quer ter uma festa bem animada, então me liga</h1>
+                <form method="POST" id="fContato" action="mailto:valmir.barros57@yahoo.com.br">
+                    <fieldset id="msg">
+                        <legend>Quer ter uma festa bem animada, então me liga</legend>
+                        Telefone:
+                        <a href="https://wa.me/5519993905548?text=Olá Camila gostaria de fazer o orçamento de uma festa" target="_blank"> (19) 9939-05548 <img src="../img/whatsapp-logo-4-1.png" width="40" height="40" alt="Whatsapp Logo" srcset=""></a>
+                        <br> E-mail: <a href="mailto:camiladaniele.melo@gmail.com?subject=Hello%20again">camiladaniele.melo@gmail.com</a>
+                        <br>
+                        <br> Nos siga nas redes sociais
+                        <br>
+                        <br>
+                        <a href="https://www.facebook.com/camila.daniele.18" target="_blank"><img src="../img/facebook-logo-14.png" width="40" height="40" alt="facebook Logo"></a>
+                        <a href="https://www.instagram.com/caramelofestaseventos/" target="_blank"> <img src="../img/instagram-logo-13.png" width="40" height="40" alt="intagram Logo"></a>
+                        <p>
 
-                <p>
-                    celular: 19. 993905548 <a href="https://wa.me/5519993905548?text=olá Camila gostaria de fazer o orçamento de uma %festa">teste</a> </p>
-                <p>
-                    email: camiladaniele.melo@gmail.com </p>
-                <p>
-                    Nos siga nas redes sociais Facebook [link face caramelo com logo] </p>
-                <p>
-                    intstagram [link face caramelo com logo] </p>
-                <p>
-                    visite também nossa pagina no Facebook [link pagina face caramelo (cart)]</p>
+                            <label for="cNome"></label><input type="text" required name="tNome" id="cNome" size="30" maxlength="35" placeholder="Seu nome">
+                        </p>
+                        <p>
+                            <label for="cMail"></label><input type="email" name="tMail" required id="cMail" size="30" maxlength="50" placeholder="Seu email">
+                        </p>
+                        <p>
+                            <label for="cPhone"></label> <input type="text" required name="tPhone" id="cPhone" size="30" placeholder="Seu telefone ex: (XX) 9999-9999">
+                        </p>
+                        <p>
+                            <label for="cMessage"></label><textarea name="tMessage" required id="cMessage" cols="30" rows="10" placeholder="Sua mensagem "></textarea>
+                        </p>
+
+                        <input type="submit" name="tSend" id="cSend">
+                    </fieldset>
+                </form>
+
+                <br> Visite também nossa pagina no Facebook <br>
+                <div class="fb-page" data-href="https://m.facebook.com/camilacaramelofestas/" data-tabs="timeline" data-width="500" data-height="100" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false">
+                    <blockquote cite="https://m.facebook.com/camilacaramelofestas/" class="fb-xfbml-parse-ignore"><a href="https://m.facebook.com/camilacaramelofestas/">Caramelo Festas e Eventos</a></blockquote>
+                </div>
             </article>
-
-            <form action="post" id="contato">
-                formulario para ser realizado
-            </form>
         </section>
 
-
         <footer id="footer-main">
-            <p>
-                Copyright&copy; 2020 desenvolvido por Valmir de Barros Pedro <br>
-                <a href="https://www.linkedin.com/in/valmir-barros/" target="_blank">LikedIn</a>
-                <a href="https://www.facebook.com/valmir.barros.169/" target="_blank">Facebook</a>
-                <a href="https://github.com/ValmirBP" target="_blank">GitHub</a>
 
-            </p>
+            Caramelo festas e Eventos &copy; 2020 - Todos os direitos reservados | Desenvolvido por Valmir <br>
+            <a href="https://www.linkedin.com/in/valmir-barros/" target="_blank">LikedIn </a> |
+            <a href="https://www.facebook.com/valmir.barros.169/" target="_blank">Facebook</a> |
+            <a href="https://github.com/ValmirBP" target="_blank">GitHub</a>
         </footer>
     </div>
+
 </body>
 
 </html>

@@ -1,6 +1,5 @@
 @charset "utf-8";
 body {
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightslategray;
 }
@@ -23,7 +22,7 @@ a {
 
 div#main {
     width: 950px;
-    background-color: pink;
+    background-color: #ffffff;
     margin: -20px auto 0px auto;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
     padding: 15px;
@@ -34,7 +33,7 @@ section#head {
     float: left;
     padding: 10px;
     width: 454px;
-    height: 380;
+    height: 370;
 }
 
 aside#dif {
@@ -49,7 +48,7 @@ article#services {
     display: block;
     background: url("../img/back-services.jpg")no-repeat;
     height: 600px;
-    margin-top: 420px;
+    margin-top: 400px;
     background-size: 950px 600px;
 }
 
@@ -62,24 +61,18 @@ article#services h1 {
     padding-top: 90px;
 }
 
-article#contact a:hover {
-    color: hotpink;
-    transition: .5s;
-}
-
 div.fb-page {
     margin-top: 10px;
     margin-left: 30%;
 }
 
 footer#footer-main {
+    background-color: burlywood;
+    background-size: 100%;
     clear: both;
     border-top: 1px solid black;
-    text-align: center;
-    padding: 10px;
 }
 
-footer#footer-main a:hover {
-    color: grey;
-    transition: .3s;
+footer#footer-main p {
+    text-align: center;
 }
