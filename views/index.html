@@ -72,19 +72,41 @@
                     <a href="https://www.facebook.com/camila.daniele.18" target="_blank"><img src="../img/facebook-logo-14.png" width="40" height="40" alt="facebook Logo"></a>
                     <a href="https://www.instagram.com/caramelofestaseventos/" target="_blank"> <img src="../img/instagram-logo-13.png" width="40" height="40" alt="intagram Logo"></a>
 
-                    <form method="POST" id="fContato" action="mailto:valmir.barros57@yahoo.com.br">
+                    <form method="POST" id="fContato"></form>
 
-                        <p>
-                            <label for="cNome"></label><input class="cells" type="text" name="tNome" id="cNome" size="30" maxlength="35" placeholder="Seu nome">
-                        </p>
-                        <p>
-                            <label for="cPhone"></label> <input class="cells" type="text" name="tPhone" id="cPhone" size="30" placeholder="Seu telefone ex: (XX) 9999-9999">
-                        </p>
-                        <p>
-                            <label for="cMessage"></label><textarea name="tMessage" id="cMessage" cols="30" rows="10" placeholder="Sua mensagem "></textarea>
-                        </p>
+                    <p>
+                        <label for="cNome"></label><input class="cells" type="text" name="tNome" id="cNome" size="30" maxlength="35" placeholder="Seu nome">
+                    </p>
+                    <p>
+                        <label for="cPhone"></label> <input class="cells" type="text" name="tPhone" id="cPhone" size="30" placeholder="Seu telefone ex: (XX) 9999-9999">
+                    </p>
+                    <p>
+                        <label for="cMessage"></label><textarea name="tMessage" id="cMessage" cols="30" rows="10" placeholder="Sua mensagem "></textarea>
+                    </p>
 
-                        <input type="submit" name="" id="" value="teste">
+                    <input type="button" name="" id="" value="Enviar" onclick="send()">
+                    <script>
+                        function send() {
+                            var link = "mailto:valmir.barros57@yahoo.com.br" +
+                                "&subject=" + encodeURIComponent("teste") +
+                                "&body=" + encodeURIComponent(document.getElementById('cNome').value) + encodeURIComponent(" ") + encodeURIComponent(document.getElementById('cPhone').value) + encodeURIComponent(" ") + encodeURIComponent(document.getElementById('cMessage').value);
+                            window.location.href = link;
+                        }
+
+                        /*
+
+function sendMail() {
+    var link = "mailto:me@example.com"
+             + "?cc=myCCaddress@example.com"
+             + "&subject=" + encodeURIComponent("This is my subject")
+             + "&body=" + encodeURIComponent(document.getElementById('myText').value)
+    ;
+    
+    window.location.href = link;
+}
+}
+                            */
+                    </script>
                 </fieldset>
                 </form>
                 </fieldset>
