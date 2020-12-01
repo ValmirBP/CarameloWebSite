@@ -71,6 +71,7 @@ nav#menu h1 {
 section#head {
     display: block;
     float: left;
+    margin-top: 50px;
     padding: 10px;
     width: 454px;
     height: 380;
@@ -79,6 +80,7 @@ section#head {
 aside#dif {
     display: block;
     float: right;
+    margin-top: 50px;
     padding: 10px;
     width: 455px;
     height: 370px;
@@ -88,7 +90,7 @@ article#services {
     display: block;
     background: url("../img/back-services.jpg")no-repeat;
     height: 600px;
-    margin-top: 420px;
+    margin-top: 450px;
     background-size: 950px 600px;
 }
 
@@ -99,6 +101,57 @@ article#services p {
 
 article#services h1 {
     padding-top: 90px;
+}
+
+article#contact {
+    margin-top: 20px;
+}
+
+legend {
+    text-align: center;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+div#contactleft {
+    text-align: left;
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    font-size: 10pt;
+    width: 250px;
+    background-color: rgba(white, white, white, .3);
+}
+
+input#cNome {
+    width: 320;
+}
+
+input#cSend {
+    padding: 0;
+    color: teal;
+    float: left;
+    width: 300;
+    height: 30;
+    font-weight: bold;
+}
+
+input#cSend:hover {
+    color: white;
+    background-color: violet;
+}
+
+textarea#cMessage {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    width: 600px;
+    font-size: 10pt;
 }
 
 div.fb-page {
