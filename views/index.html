@@ -96,20 +96,20 @@
                         </div>
                     </div>
 
-                    <form method="POST" id="fContato"></form>
+                    <form method="POST" id="fContato" name="form"></form>
 
 
                     <label for="cNome"></label>
-                    <input type="text" name="tNome" id="cNome" size="30" maxlength="35" placeholder="Seu nome">
+                    <input type="text" required name="tNome" id="cNome" size="30" maxlength="35" placeholder="Seu nome *">
 
                     <label for="cPhone"></label>
-                    <input type="text" name="tPhone" id="cPhone" size="30" placeholder="Telefone">
+                    <input type="text" required name="tPhone" id="cPhone" size="30" placeholder="Telefone *">
 
                     <label for="cMessage"></label>
-                    <textarea name="tMessage" id="cMessage" cols="30" rows="5" placeholder="Sua mensagem "></textarea>
+                    <textarea required name="tMessage" id="cMessage" cols="30" rows="5" placeholder="Sua mensagem *"></textarea>
 
                     <label for="cSend"></label>
-                    <input type="button" name="tSend" id="cSend" value="Enviar mensagem" onclick="send()">
+                    <input type="submit" name="tSend" id="cSend" value="Enviar mensagem " onclick="send()">
 
 
                     </form>
@@ -119,9 +119,19 @@
 
         <footer id="footer-main">
             Caramelo festas &copy; 2020 - Todos os direitos reservados | Desenvolvido por Valmir <br>
-            <a href="https://www.linkedin.com/in/valmir-barros/" target="_blank"> <img src="../img/LI-In-Bug.png" width="30" height="30" alt=""></a> |
-            <a href="https://www.facebook.com/valmir.barros.169/" target="_blank"><img src="../img/facebook-logo-14.png" width="30" height="30" alt=""></a> |
-            <a href="https://github.com/ValmirBP" target="_blank"><img src="../img/GitHub-Mark-120px-plus.png" width="30" height="30" alt=""></a>
+            <ul id="social">
+                <li>
+                    <a href="https://www.linkedin.com/in/valmir-barros/" target="_blank"> <img src="../img/linkedin.png" width="30" height="30" alt=""></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/valmir.barros.169/" target="_blank"><img src="../img/facebook.png" width="30" height="30" alt=""></a>
+                </li>
+                <li>
+                    <a href="https://github.com/ValmirBP" target="_blank"><img src="../img/github.png" width="30" height="30" alt=""></a>
+                </li>
+            </ul>
+
+
         </footer>
     </div>
 </body>
