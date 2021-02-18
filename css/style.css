@@ -4,7 +4,7 @@
                 body {
                     margin: 0;
                     font-family: Arial, Helvetica, sans-serif;
-                    background-color: pink;
+                    background-color:#b4b4b4;
                     overflow-anchor: none;
                 }
                 
@@ -35,7 +35,7 @@
                 
                 div#main {
                     width: 950px;
-                    background-color: pink;
+                    background-color: #b4b4b4;
                     margin: -20px auto 0px auto;
                     padding: 15px;
                 }
