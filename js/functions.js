@@ -1,4 +1,4 @@
-function send() {
+function toSend() {
 
     var link = "mailto:valmir.barros57@yahoo.com.br" +
         "&subject=" + encodeURIComponent("Solicitação de orçamento") +
@@ -11,3 +11,7 @@ function send() {
         encodeURIComponent(document.getElementById('cPhone').value);
     window.location.href = link;
 }
+
+function toShowActualYear() {
+    document.write(new Date().getFullYear());
+};

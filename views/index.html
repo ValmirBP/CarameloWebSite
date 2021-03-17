@@ -81,7 +81,7 @@
                     <legend>Quer ter uma festa bem animada? Me liga!</legend>
                     <div id="contactleft">
 
-                        Telefone: <a href="https://wa.me/5519993905548?text=Olá Camila gostaria de fazer o orçamento de uma festa" target="_blank"> (19) 9939-05548 <img src="../img/whatsapp-logo-4-1.png" width="30" height="30" alt="Whatsapp Logo" srcset=""></a>                        <br>
+                        <a href="https://wa.me/5519993905548?text=Olá! Gostaria de fazer o orçamento de uma festa" target="_blank"> <img src="../img/whatsapp-logo-4-1.png" width="30" height="30" alt="Whatsapp Logo" srcset=""></a>                        <br>
                         <br> E-mail: <a href="mailto:camiladaniele.melo@gmail.com?subject=Solicitação%20de%20orçamento" target="-balnk">camiladaniele.melo@gmail.com</a>
                         <br>
                         <br> Nos siga nas redes sociais
@@ -90,10 +90,6 @@
                         <a href="https://www.facebook.com/camila.daniele.18" target="_blank"><img src="../img/facebook-logo-14.png" width="30" height="30" alt="facebook Logo"></a>
                         <a href="https://www.instagram.com/caramelofestaseventos/" target="_blank"> <img src="../img/instagram-logo-13.png" width="30" height="30" alt="intagram Logo"></a>
                         <br>
-                        <br> Visite também nossa pagina no Facebook <br>
-                        <div class="fb-page" data-href="https://m.facebook.com/camilacaramelofestas/" data-tabs="timeline" data-width="500" data-height="100" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false">
-                            <blockquote cite="https://m.facebook.com/camilacaramelofestas/" class="fb-xfbml-parse-ignore"><a href="https://m.facebook.com/camilacaramelofestas/">Caramelo Festas e Eventos</a></blockquote>
-                        </div>
                     </div>
 
                     <form method="POST" id="fContato" name="form"></form>
@@ -109,7 +105,7 @@
                     <textarea required name="tMessage" id="cMessage" cols="30" rows="5" placeholder="Sua mensagem *"></textarea>
 
                     <label for="cSend"></label>
-                    <input type="submit" name="tSend" id="cSend" value="Enviar mensagem " onclick="send()">
+                    <input type="submit" name="tSend" id="cSend" value="Enviar mensagem " onclick="toSend()">
 
 
                     </form>
@@ -118,20 +114,22 @@
         </section>
 
         <footer id="footer-main">
-            Caramelo festas &copy; 2020 - Todos os direitos reservados | Desenvolvido por Valmir <br>
+
+            Caramelo festas &copy;  
+            <script>
+                toShowActualYear();
+          </script>  
+          - Todos os direitos reservados | Desenvolvido por Valmir <br>
+
             <ul id="social">
                 <li>
-                    <a href="https://www.linkedin.com/in/valmir-barros/" target="_blank"> <img src="../img/linkedin.png" width="30" height="30" alt=""></a>
+                    <a href="https://www.linkedin.com/in/valmir-barros/" target="_blank"> <img src="../img/linkedin.png" width="20" height="20" alt=""></a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/valmir.barros.169/" target="_blank"><img src="../img/facebook.png" width="30" height="30" alt=""></a>
+                    <a href="https://www.facebook.com/valmir.barros.169/" target="_blank"><img src="../img/facebook.png" width="20" height="20" alt=""></a>
                 </li>
-                <li>
-                    <a href="https://github.com/ValmirBP" target="_blank"><img src="../img/github.png" width="30" height="30" alt=""></a>
-                </li>
+              
             </ul>
-
-
         </footer>
     </div>
 </body>
